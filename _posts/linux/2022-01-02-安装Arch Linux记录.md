@@ -5,6 +5,9 @@ tags: [linux, archlinux]
 categories: 文章
 ---
 
+* TOC
+{:toc}
+
 # 安装Arch Linux记录
 
 1. 在U盘中安装镜像，U盘启动。

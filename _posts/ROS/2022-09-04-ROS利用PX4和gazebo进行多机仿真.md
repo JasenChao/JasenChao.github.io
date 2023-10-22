@@ -5,6 +5,9 @@ tags: [ROS, PX4, gazebo]
 categories: 文章
 ---
 
+* TOC
+{:toc}
+
 需要具备[单机仿真](https://jasenchao.github.io/2022-09-04-ROS利用PX4和gazebo仿真offboard/)的前置知识。
 
 1. 修改 launch 文件：`PX4-Autopilot/launch/multi_uav_mavros_sitl.launch`，仿照已有内容，增加`uav3`，其中`fcu_url`、`mavlink_udp_port`和`mavlink_tcp_port`都要 +1 避免重复，上限是10台。（注意起始坐标）

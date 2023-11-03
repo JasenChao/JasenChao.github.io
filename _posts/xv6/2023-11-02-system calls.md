@@ -1,6 +1,6 @@
 ---
 layout: post
-title: system calls
+title: 【XV6】 system calls
 tags: [xv6, OS]
 categories: 文章
 ---
@@ -75,7 +75,7 @@ Thread 2 hit Breakpoint 1, syscall () at kernel/syscall.c:243
 
 layout 命令将窗口一分为二，显示`src`，也可以`layout asm`等。
 
-## 添加系统调用-trace
+# 添加系统调用-trace
 
 题目要求基于已经给出的`trace.c`实现系统调用跟踪。根据提示按步骤进行。
 
@@ -161,7 +161,7 @@ Makefile调用perl脚本`user/usys.pl`，该脚本生成`user/usys.S`，这是�
 
 使用`make GRADEFLAGS=trace grade`测试代码是否通过。
 
-## 添加系统调用-sysinfo
+# 添加系统调用-sysinfo
 
 题目要求基于已经给出的`sysinfotest.c`实现系统调用跟踪。根据提示按步骤进行。
 

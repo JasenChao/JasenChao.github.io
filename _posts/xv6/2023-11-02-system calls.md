@@ -75,6 +75,37 @@ Thread 2 hit Breakpoint 1, syscall () at kernel/syscall.c:243
 
 layout 命令将窗口一分为二，显示`src`，也可以`layout asm`等。
 
+GDB有一些常用指令：
+
+```shell
+1.break/b (*地址)/函数名 #设置断点，指令地址可以查看asm文件
+#除此之外通常可以使用b *$stvec,在trampoline处设置断点
+
+2.continue/c #运行到断点处然后停下
+
+3.stepi/si #运行单个汇编指令，进入函数
+
+4.n #运行一行c语言代码，不进入函数
+
+5.step/s #运行一行C语言代码，进入函数
+
+6.info/i reg/r #查看32个同一寄存器和PC寄存器的值
+
+7.info/i break/b #查看断点信息
+
+8.info/i frame #打印当前栈帧
+
+9.print/p (/x) 变量/$寄存器 #打印C语言变量值或寄存器的值，/x是将值为打印16进制的值
+
+10.examining/x 地址 #检测内存单元并打印
+                #可以使用/x十六进制 /i指令 /c字符格式化打印值
+                #而且可以使用/4c打印4个字节单元并输出为字符
+11.list 地址  #打印函数的源代码在指定的位置。
+
+12.layout asm/src/split #分别打开汇编代码窗口、源码窗口、split打开汇编和源码窗口
+                        #ctrl x + a 可以关闭layout窗口
+```
+
 # 添加系统调用-trace
 
 题目要求基于已经给出的`trace.c`实现系统调用跟踪。根据提示按步骤进行。

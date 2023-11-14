@@ -8,6 +8,8 @@ categories: 文章
 * TOC
 {:toc}
 
+代码：https://github.com/JasenChao/xv6-labs.git
+
 # E1000网络设备驱动
 
 题目已经在`kernel/e1000.c`中给出了E1000的初始化函数和发送接收函数，要求完善发送和接收的功能。

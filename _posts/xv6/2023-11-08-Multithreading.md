@@ -8,6 +8,8 @@ categories: 文章
 * TOC
 {:toc}
 
+代码：https://github.com/JasenChao/xv6-labs.git
+
 # 用户级线程切换
 
 题目要求完成用户级线程系统，提示程序要在`uthread.c`和`uthread_switch.S`中补充完成。

@@ -8,6 +8,8 @@ categories: 文章
 * TOC
 {:toc}
 
+代码：https://github.com/JasenChao/xv6-labs.git
+
 # 快速获取pid-ugetpid
 
 题目要求参考已实现的`ugetpid()`使用`USYSCALL`快速获取`pid`。

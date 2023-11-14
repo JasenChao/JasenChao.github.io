@@ -8,6 +8,8 @@ categories: 文章
 * TOC
 {:toc}
 
+代码：https://github.com/JasenChao/xv6-labs.git
+
 # 支持大文件
 
 XV6目前只支持268个blocks大小的文件，一个block（BSIZE）为1024，文件块inode包含12个一级地址和1个二级地址，二级地址指向另一个block，其中存放了256个一级地址，因此一共是268个。

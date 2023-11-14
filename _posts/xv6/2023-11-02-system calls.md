@@ -8,6 +8,8 @@ categories: 文章
 * TOC
 {:toc}
 
+代码：https://github.com/JasenChao/xv6-labs.git
+
 # 使用GDB调试
 
 ## 安装risc-v的GDB

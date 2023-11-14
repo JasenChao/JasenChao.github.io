@@ -8,6 +8,8 @@ categories: 文章
 * TOC
 {:toc}
 
+代码：https://github.com/JasenChao/xv6-labs.git
+
 # 运行xv6
 
 实验环境使用的是Ubuntu 20.04，需要安装一些工具：

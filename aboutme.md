@@ -1,7 +1,6 @@
 ---
 layout: page
-title: 关于我
-subtitle: TODO
+title: About Me
 ---
 
-
+Email: JasenChao@gmail.com
